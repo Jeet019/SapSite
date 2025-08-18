@@ -30,6 +30,10 @@ const Home = () => {
           <CodeCard key={idx} code={item.code} desc={item.desc} />
         ))}
       </div>
+       {/* Footer */}
+      <footer className="mt-10 text-center text-gray-600 text-sm">
+        Developed by <span className="font-semibold text-blue-600">Jeet Rabadiya</span>
+      </footer>
     </div>
   );
 };
