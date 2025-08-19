@@ -14,7 +14,7 @@ const codes = [
   { code: "VA03", desc: "Display Sales Order." },
   { code: "XD02", desc: "Edit customer data." },
   { code: "ME21N", desc: "Create Purchase Order." },
-  { code: "MBBE", desc: "Stock report." },
+  { code: "MMBE", desc: "Stock report." },
   { code: "VD51", desc: "Create Customer Material Info Record." },
   { code: "VD52", desc: "Extend Or edit Customer Material Info Record." },
   { code: "VD53", desc: "Display Customer Material Info Record." },
@@ -39,7 +39,8 @@ const codes = [
   { code: "V/06", desc: "Condition Type." },
   { code: "V/08", desc: "Pricing Procedure." },
   { code: "OVKK", desc: "Assign Pricing Procedure." },
-  { code: "VK11", desc: "Fill Up condition Record." }
+  { code: "VK11", desc: "Fill Up condition Record." },
+  { code: "FTXP", desc: "Create Tax Code." }
 ];
 
 export default codes;
