@@ -40,7 +40,14 @@ const codes = [
   { code: "V/08", desc: "Pricing Procedure." },
   { code: "OVKK", desc: "Assign Pricing Procedure." },
   { code: "VK11", desc: "Fill Up condition Record." },
-  { code: "FTXP", desc: "Create Tax Code." }
+  { code: "FTXP", desc: "Create Tax Code." },
+  { code: "OV14", desc: "Material Determination Assign Procedure." },
+  { code: "OVRQ", desc: "Material Determination Subsitution Reason." },
+  { code: "VB11", desc: "Material Determination Fill Condition Record." },
+  // { code: "V/N6", desc: "Material Listing And Exclusion Assign Procedure." },
+  { code: "VB01", desc: "Material Listing And Exclusion Fill Condition Record." },
+  { code: "V/N6", desc: "Free Goods Assign Procedure." },
+  { code: "VBN1", desc: "Free Goods Fill Condition Record." },
 ];
 
 export default codes;
