@@ -23,7 +23,7 @@ const codes = [
   { code: "MI21", desc: "To print physical inventory document." },
   { code: "MIGO", desc: "To create stocks." },
   { code: "MIRO", desc: "Invoice Receipt document." },
-  { code: "VOPAN", desc: "For Partner function." },
+  { code: "VOPAN", desc: "For Partner function Determination." },
   { code: "OMY", desc: "To change year in Material Management (MM)." },
   { code: "VF01", desc: "Invoice." },
   { code: "VL01N", desc: "Delivery document." },
@@ -48,6 +48,13 @@ const codes = [
   { code: "VB01", desc: "Material Listing And Exclusion Fill Condition Record." },
   { code: "V/N6", desc: "Free Goods Assign Procedure." },
   { code: "VBN1", desc: "Free Goods Fill Condition Record." },
+  { code: "CS01", desc: "Main Bom Master Data." },
+  { code: "SE11", desc: "Dictionary." },
+  { code: "VOV8", desc: "Maintain Sales Order Types Master Data." },
+  { code: "VOV7", desc: "Maintain Item Categories Types Master Data." },
+  { code: "VOV4", desc: "Item Categories Determination." },
+  { code: "VOV6", desc: "Maintain Scduline Categories." },
+  { code: "VOV5", desc: "Scduline Categories Determination." }, 
 ];
 
 export default codes;
